@@ -12,8 +12,8 @@ scr = lv.scr_act()            # default screen object
 f20 = lv.montserrat_font(20)  # load embedded Montserrat 20
 f28 = lv.montserrat_font(28)  # load embedded Montserrat 28
 
-#- Background with a gradient from black #000000 (bottom) to dark blue #0000A0 (top) -#
-scr.set_style_bg_color(lv.color(0x000000), lv.PART_MAIN | lv.STATE_DEFAULT)
+#- Background with a gradient from black #000000 (bottom) to dark blue #A00000 (top) -#
+scr.set_style_bg_color(lv.color(0xA00000), lv.PART_MAIN | lv.STATE_DEFAULT)
 scr.set_style_bg_grad_color(lv.color(0x000000), lv.PART_MAIN | lv.STATE_DEFAULT)
 scr.set_style_bg_grad_dir(lv.GRAD_DIR_VER, lv.PART_MAIN | lv.STATE_DEFAULT)
 
